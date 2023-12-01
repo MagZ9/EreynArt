@@ -1,0 +1,186 @@
+header {
+    background-color: #7860ff; /* Background color for the header */
+    color: #ffffff; /* Text color for the header */
+    padding: px ; /* Adjust padding as needed */
+    text-align: center; /* Center the text within the header */
+    font-family: Arial;
+    font-weight: bold;
+    z-index: 1;
+}
+.fixed-header {
+    position: fixed;
+    top: 0; 
+    width: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Arial;
+}
+.navbar ul {
+    display: inline-block;
+    padding: 0;
+}
+.navbar li {
+    display: inline; /* Display list items horizontally */
+    margin: 30px; /* Adjust the margin to separate items */
+    padding: 15px 12px;
+}
+.navbar li:hover {
+    background-color: #543ed3;
+    padding: 15px 12px;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+.navbar a {
+    text-decoration: none;
+    color: #ffffff; /* Text color for navigation links */
+    padding: 12px;
+}
+
+
+
+
+.header-main {
+    margin: 0 auto; /* Center horizontally */
+    display: block;
+    background-color: #7860ff;
+    width: 1000px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+.header {
+    color: #ffffff;
+}
+
+
+
+/* EMOTE SECTION */
+
+
+
+.space-between{
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.emote-detail {
+    margin-top: 50px;
+}
+.pack-2 {
+    margin-top: 50px;
+}
+.pack-3 {
+    margin-top: 50px;
+}
+.header-2 {
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+}   
+.image-hover:hover {
+    transform: scale(1.01);
+    filter: blur(1px);
+    transition: transform 0.3s;
+}
+
+.header-3 {
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: bold;
+}
+.line-mid {
+    width: 420px;
+}
+.line-small {
+    width: 320px;
+}
+
+
+
+
+/* PANELS SECTION */
+
+
+/* ALL ACCESS */
+
+
+
+.line-big {
+    margin-top: 100px;
+}
+
+
+
+
+/* BUTTONS BUTTONS BUTTONS BUTTONS */
+
+
+
+
+
+.button-container {
+    display: flex;
+    margin: 50px;
+    margin-top: 50px;
+}
+.text-decoration {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5070ff; /* Background color */
+    width: 30px;
+    border: 3px solid #133eff;
+    border-radius: 60px;
+    padding: 12px 40px;
+    transition: background-color 0.4s;
+}
+.button:hover {
+    background-color:  #133eff;
+    transition: background-color 0.4s;
+}
+.button-buy {
+    font: Arial;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.button-box-shadow {
+    border-radius: 60px;
+    transition: box-shadow 0.4s;
+}
+.button-box-shadow:hover {
+    box-shadow: 0px 2px 4px #000000;
+    transition: box-shadow 0.4s;
+}
+.img:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s;
+}
+
+
+
+
+/* individual image positions */
+
+
+
+
+.price {
+    margin-top: 5px;
+    color: rgb(86, 86, 255);
+    font-weight: bold;
+    font-size: 30px;
+}
+.sizes {
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
